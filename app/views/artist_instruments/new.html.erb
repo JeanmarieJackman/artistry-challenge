@@ -1,0 +1,13 @@
+<h1>New AI form</h1>
+
+<%=form_for @artist_instrument do |f|%>
+
+    <%=f.label :artist_id%>
+    <%=f.text_field :artist_id%>
+
+    <%=f.label :instrument_id%>
+    <%=f.text_field :instrument_id%>
+
+    <%=f.submit%>
+
+<%end%>

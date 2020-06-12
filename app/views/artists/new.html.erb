@@ -1,0 +1,16 @@
+<p> new artist form</p>
+
+<%=form_for @artist do |f|%>
+
+    <%=f.label :name%>
+    <%=f.text_field :name%>
+
+    <%=f.label :age%>
+    <%=f.text_field :age%>
+    
+    <%=f.label :title%>
+    <%=f.text_field :title%>
+
+    <%=f.submit%>
+    
+<%end%>
